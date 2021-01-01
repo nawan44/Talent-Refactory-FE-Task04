@@ -1,9 +1,9 @@
 import React from 'react';
-import './css/clients.css';
+import './style/clients.css';
 
 
 
-class OurClients extends React.Component {
+class Clients extends React.Component {
     render() {
         return (
             <div className="clients ">
@@ -13,4 +13,4 @@ class OurClients extends React.Component {
     }
 }
 
-export default OurClients;
+export default Clients;

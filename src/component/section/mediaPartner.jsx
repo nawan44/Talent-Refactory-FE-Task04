@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/media-partner.css';
+import './style/media-partner.css';
 
 
 

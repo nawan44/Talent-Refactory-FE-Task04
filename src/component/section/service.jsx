@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/we-do.css';
+import './style/service.css';
 
 
 

@@ -1,12 +1,11 @@
 import React from 'react';
-import OurClients from './ourClients.jsx';
+import Clients from './section/clients.jsx';
 import Header from './header.jsx';
-import About from './about.jsx';
-import WeDo from './weDo.jsx';
+import About from './section/about.jsx';
+import Service from './section/service.jsx';
 import Swiper from './swiper.jsx';
-import Youtube from './youtube.jsx';
-import MediaPartner from './mediaPartner.jsx';
-import Contact from './contact.jsx';
+import MediaPartner from './section/mediaPartner.jsx';
+import Contact from './section/contact.jsx';
 
 
 class Home extends React.Component {
@@ -16,12 +15,18 @@ class Home extends React.Component {
             <div >
                 <Header />
                 <About />
-                <WeDo />
+                <Service />
                 <MediaPartner />
-                <Swiper />
-                <Youtube />
-                <OurClients />
+
+                <Clients />
                 <Contact />
+                {/* 
+
+
+
+<Swiper />
+                
+                 */}
             </div >
         )
     }
