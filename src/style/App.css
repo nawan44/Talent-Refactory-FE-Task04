@@ -1,8 +1,17 @@
 .App {
   text-align: center;
 }
-body{
+
+body {
   background-color: white;
+}
+
+.line-section {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5px;
+  width: 300px;
+  border-color: #ef4035;
 }
 
 .App-logo {
@@ -34,6 +43,7 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
