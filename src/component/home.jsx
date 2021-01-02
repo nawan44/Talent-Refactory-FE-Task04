@@ -5,7 +5,7 @@ import About from './section/about.jsx';
 import Services from './section/services.jsx';
 import MediaPartner from './section/mediaPartner.jsx';
 import Contact from './section/contact.jsx';
-import SwiperPorto from './swiper.jsx';
+import Portofolio from './section/portofolio.jsx';
 
 
 class Home extends React.Component {
@@ -17,7 +17,7 @@ class Home extends React.Component {
                 <About />
                 <Services />
                 <MediaPartner />
-                <SwiperPorto />
+                <Portofolio />
                 <Clients />
                 <Contact />
             </div >
