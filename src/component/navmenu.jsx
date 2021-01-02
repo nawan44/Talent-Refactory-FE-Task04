@@ -9,7 +9,7 @@ import logoNav from './img/logo/logo-nav.png';
 const navLink = {
   color: 'white',
   fontSize: '24px',
-  margin: '0 10px 10px 30px',
+  margin: '0 20px 10px 30px',
 
 }
 const logoNavbar = {
@@ -24,7 +24,6 @@ const Navmenu = (props) => {
       <Navbar light expand="md" className="Navbar">
         <NavbarBrand href="/" >
           <img src={logoNav} style={logoNavbar} alt=" " />
-          <h3 >Company Logo</h3>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} className="mr-2 bg-white" />
         <Collapse isOpen={isOpen} navbar style={navLink}>

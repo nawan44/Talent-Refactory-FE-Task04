@@ -3,9 +3,9 @@ import Clients from './section/clients.jsx';
 import Header from './header.jsx';
 import About from './section/about.jsx';
 import Service from './section/service.jsx';
-import Swiper from './swiper.jsx';
 import MediaPartner from './section/mediaPartner.jsx';
 import Contact from './section/contact.jsx';
+import SwiperPorto from './swiper.jsx';
 
 
 class Home extends React.Component {
@@ -17,16 +17,9 @@ class Home extends React.Component {
                 <About />
                 <Service />
                 <MediaPartner />
-
+                <SwiperPorto />
                 <Clients />
                 <Contact />
-                {/* 
-
-
-
-<Swiper />
-                
-                 */}
             </div >
         )
     }

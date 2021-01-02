@@ -46,13 +46,16 @@ const logoHeader = {
     marginTop: 30,
     marginBottom: 30,
 }
+
 class Header extends React.Component {
 
     render() {
         return (
             <div className="header">
+                <Navmenu />
+
                 <Container>
-                    <Navmenu />
+
                     <Row>
                         <img src={logo} style={logoHeader} />
                     </Row>
