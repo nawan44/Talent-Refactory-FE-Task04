@@ -1,13 +1,12 @@
 import React from 'react';
-import './style/clients.css';
+import './style/client.css';
 
 
 
 class Clients extends React.Component {
     render() {
         return (
-            <div className="clients ">
-
+            <div className="client ">
             </div>
         );
     }
