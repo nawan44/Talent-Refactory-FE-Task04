@@ -46,6 +46,16 @@ footer.footer .contact-details {
 
 }
 
+.medsos {
+    color: #ffffff;
+    font-size: 48px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
 .icon-medsos {
     width: 30%;
 }
