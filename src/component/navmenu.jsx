@@ -8,13 +8,11 @@ import logoNav from './img/logo/logo-nav.png';
 
 const navLink = {
   color: 'white',
-  fontSize: '24px',
+  fontSize: '16px',
   margin: '0 20px 10px 30px',
 
 }
-const logoNavbar = {
-  width: '60%'
-}
+
 const Navmenu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -23,7 +21,7 @@ const Navmenu = (props) => {
     <div className="Nav">
       <Navbar light expand="md" className="Navbar">
         <NavbarBrand href="/" >
-          <img src={logoNav} style={logoNavbar} alt=" " />
+          <img src={logoNav} className="logoNavbar" alt=" " />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} className="mr-2 bg-white" />
         <Collapse isOpen={isOpen} navbar style={navLink}>
