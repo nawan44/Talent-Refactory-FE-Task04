@@ -48,3 +48,14 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width:300px) {
+  .line-section {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    width: 200px;
+    border-color: #ef4035;
+  }
+
+}
