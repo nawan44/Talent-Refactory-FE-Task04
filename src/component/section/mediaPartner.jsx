@@ -19,10 +19,6 @@ import tvri from '../img/media/tvri.png';
 const containerServices = {
     width: '100%'
 }
-const logoMedia = {
-    width: '100px',
-    margin: '20px'
-}
 class MediaPartner extends React.Component {
     render() {
         return (
@@ -34,19 +30,19 @@ class MediaPartner extends React.Component {
                 <h5>Our Core in Integrated Marketing Services :</h5>
 
                 <div srtyle={containerServices}>
-                    <img src={antv} style={logoMedia} />
-                    <img src={detik} style={logoMedia} />
-                    <img src={globatv} style={logoMedia} />
-                    <img src={jawa} style={logoMedia} />
-                    <img src={kumparan} style={logoMedia} />
-                    <img src={metrotv} style={logoMedia} />
-                    <img src={net} style={logoMedia} />
-                    <img src={rcti} style={logoMedia} />
-                    <img src={sctv} style={logoMedia} />
-                    <img src={tirto} style={logoMedia} />
-                    <img src={transtv} style={logoMedia} />
-                    <img src={tribun} style={logoMedia} />
-                    <img src={tvri} style={logoMedia} />
+                    <img src={antv} className="logo-media" />
+                    <img src={detik} className="logo-media" />
+                    <img src={globatv} className="logo-media" />
+                    <img src={jawa} className="logo-media" />
+                    <img src={kumparan} className="logo-media" />
+                    <img src={metrotv} className="logo-media" />
+                    <img src={net} className="logo-media" />
+                    <img src={rcti} className="logo-media" />
+                    <img src={sctv} className="logo-media" />
+                    <img src={tirto} className="logo-media" />
+                    <img src={transtv} className="logo-media" />
+                    <img src={tribun} className="logo-media" />
+                    <img src={tvri} className="logo-media" />
 
                 </div>
             </div >
