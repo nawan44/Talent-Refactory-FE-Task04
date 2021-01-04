@@ -31,14 +31,6 @@
     margin: 20px 0 30px 0;
 }
 
-.icon-service {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: left;
-    padding: 5px;
-}
-
 .logo-media {
     width: 100px;
     margin: 20px;
@@ -76,14 +68,6 @@
         line-height: 27px;
         color: #ffffff;
         margin: 20px 0 30px 0;
-    }
-
-    .icon-service {
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
-        padding: 5px;
     }
 
     .logo-media {

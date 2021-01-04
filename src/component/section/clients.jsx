@@ -20,10 +20,7 @@ import tvri from '../img/media/tvri.png';
 const containerClient = {
     width: '100%'
 }
-const logoMedia = {
-    width: '100px',
-    margin: '20px'
-}
+
 
 
 class Clients extends React.Component {
@@ -37,19 +34,19 @@ class Clients extends React.Component {
                 <h5>Here are some our clients that we've worked on :</h5>
 
                 <div srtyle={containerClient}>
-                    <img src={antv} style={logoMedia} />
-                    <img src={detik} style={logoMedia} />
-                    <img src={globatv} style={logoMedia} />
-                    <img src={jawa} style={logoMedia} />
-                    <img src={kumparan} style={logoMedia} />
-                    <img src={metrotv} style={logoMedia} />
-                    <img src={net} style={logoMedia} />
-                    <img src={rcti} style={logoMedia} />
-                    <img src={sctv} style={logoMedia} />
-                    <img src={tirto} style={logoMedia} />
-                    <img src={transtv} style={logoMedia} />
-                    <img src={tribun} style={logoMedia} />
-                    <img src={tvri} style={logoMedia} />
+                    <img src={antv} className="logo-client" />
+                    <img src={detik} className="logo-client" />
+                    <img src={globatv} className="logo-client" />
+                    <img src={jawa} className="logo-client" />
+                    <img src={kumparan} className="logo-client" />
+                    <img src={metrotv} className="logo-client" />
+                    <img src={net} className="logo-client" />
+                    <img src={rcti} className="logo-client" />
+                    <img src={sctv} className="logo-client" />
+                    <img src={tirto} className="logo-client" />
+                    <img src={transtv} className="logo-client" />
+                    <img src={tribun} className="logo-client" />
+                    <img src={tvri} className="logo-client" />
 
                 </div>
             </div>
