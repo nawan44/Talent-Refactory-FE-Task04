@@ -1,42 +1,53 @@
-.footer {
-    padding: 20px;
+.app-footer {
     background-image: url("../img/background/bg-section.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 340px;
     color: #fff;
     text-align: center;
     bottom: 0;
 
 }
 
-footer.footer {
-    padding: 50px 0 20px;
-    color: #fff;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.contact-details {
+    width: 33%;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
 }
 
-footer.footer a {
-    color: rgba(255, 255, 255, .7);
+.address-detail {
+    padding: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
-footer.footer a:hover {
-    color: #fff;
+.social-medsos-center {
+    text-align: center;
+    margin: 0 auto;
+    width: 14%;
+    float: left;
+    height: auto;
 }
 
-footer.footer p {
-    font-size: 22px;
+.social-medsos-right {
+    text-align: center;
+    margin: 0 auto;
+    width: 43%;
+    float: left;
+    height: auto;
 }
 
-footer.footer .contact-details {
-    margin: 75px 0;
-    padding: 30px;
-
+.social-medsos-left {
+    text-align: center;
+    margin: 0 auto;
+    width: 43%;
+    float: left;
+    height: auto;
 }
 
 .contact-details p a {
@@ -47,13 +58,13 @@ footer.footer .contact-details {
 }
 
 .medsos {
-    color: #ffffff;
-    font-size: 48px;
+    font-size: 60px;
     float: left;
-    padding: 20px;
     text-align: center;
     margin: 0 auto;
-
+    width: 100%;
+    height: 50px;
+    padding: 30px;
 }
 
 .icon-medsos {
@@ -62,20 +73,39 @@ footer.footer .contact-details {
 
 .social {
     width: 100%;
-    margin: 20px 0 10px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.contact-details1 {
-    background-color: yellowgreen;
+.title-contact h4 {
+    text-align: center;
+    margin: 0 auto;
 }
 
-.contact-details a i {
-    margin-left: 40px;
-    padding: 20px;
+.title-contact {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+}
+
+.title-contact i {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
 }
 
 .footer-text {
+    width: 100%;
+    float: left;
     font-size: 20px;
+}
+
+.col-copy {
+    width: 100%;
+    float: left;
 }
 
 .copyright {
@@ -83,19 +113,26 @@ footer.footer .contact-details {
     margin: 20px 0 10px;
 }
 
+/* 
 @media(min-width:1025px) {
-    footer.footer {
-        background-attachment: fixed;
-    }
 
     .contact-details {
         text-align: center;
         font-size: 20px;
     }
 
-    .social col {
-        width: 30%;
+    .social {
+        width: 100%;
         background-color: yellow;
+    }
+
+    .social-medsos-center {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        float: left;
+        height: auto;
+        background-color: antiquewhite;
     }
 
     .contact-details a i {
@@ -103,27 +140,97 @@ footer.footer .contact-details {
         padding: 0;
         margin: 0;
     }
-}
+} */
 
 @media (max-width:300px) {
-    .social {
-        width: 50%;
+    .app-footer {
+        background-image: url("../img/background/bg-section.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 340px;
+        color: #fff;
+        text-align: center;
+        bottom: 0;
+
     }
 
-    .social col i {
-        width: 30px;
-        background-color: yellow;
+    .social {
+        width: 100%;
+        height: 100px;
+        padding: 0 25px 0 25px;
+    }
 
+    .social-medsos-center {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        float: left;
+        height: 80px;
+    }
+
+    .medsos {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 50px;
     }
 
     .contact-details {
         text-align: center;
+        width: 30%;
+        float: left;
+        margin: 5px;
+    }
+
+    .contact-details h4 {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .contact-details i {
+        margin: 0 5px 0 0;
+        padding: 0;
+
+    }
+
+
+    .title-contact h4 {
+        text-align: center;
+        margin: 0 auto;
         font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-details a {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 6px;
+    }
+
+    .contact-details p a {
+        text-align: center;
+        font-size: 12px;
     }
 
     .contact-details a i {
         text-align: center;
         padding: 0;
         margin: 0;
+    }
+
+    .footer-text {
+        width: 100%;
+        float: left;
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        margin: 20px 0 10px;
     }
 }
